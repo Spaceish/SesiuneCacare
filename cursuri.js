@@ -24,8 +24,6 @@ function schimba() {
 //     }
 // }
 
-show
-
 function cursContinua(text) {
     if (text === "primul") {
         schimbareTitlu("curs-info", "Primul curs, baza :")
