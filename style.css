@@ -22,3 +22,7 @@ p {
     /* Make it cornerless */
     border-radius: 9px;
 }
+
+#curs-experienta {
+    display: none;
+}
