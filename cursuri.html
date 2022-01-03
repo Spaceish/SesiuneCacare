@@ -6,12 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="classes/neon-btn.css">
+    <script src="cursuri.js" defer></script>
     <title>Cursuri de la sef</title>
 </head>
 <body>
     <p>Cursuri :</p>
     <p id="curs-info">Primul curs, baza :</p>
-    <iframe id="curs" src="https://streamable.com/e/maikf2?loop=0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
-        <button type="button" class="neon-button" onclick="cursContinua(0)">Urmatorul curs</button>
+    <div id="curs-primul">
+        <iframe src="https://streamable.com/e/maikf2?loop=0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div id="curs-experienta">
+        <script type="text/javascript" src="https://files.fm/embed/playerv2?hash=pk5cyeeg9&autoplay=off&autoload=off&w=100%&h=auto&poster_src=https://files.fm/thumb_video_picture.php?i=pk5cyeeg9" id="filesfm_embed_js__pk5cyeeg9"></script>
+    </div>
+        <button type="button" class="neon-button" onclick="cursContinua('primul')">Primul curs</button>
+        <button type="button" class="neon-button" onclick="cursContinua('experienta')">Urmatorul curs</button>
 </body>
 </html>
