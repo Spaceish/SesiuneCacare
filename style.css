@@ -19,8 +19,6 @@ p {
 }
 
 #btn-intro-next {
-    /*neon background-color*/
-    
     /* Make it cornerless */
     border-radius: 9px;
 }
