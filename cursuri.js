@@ -2,7 +2,6 @@ const primul = document.getElementById('curs-primul')
 const experienta = document.getElementById('curs-experienta')
 
 function schimbareTitlu(id, titlu) {
-   console.log(`schimbare titlu se executa unde titlu '${titlu}'`);
     document.getElementById(id).innerText = titlu;
 }
 
