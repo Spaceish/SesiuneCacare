@@ -1,0 +1,19 @@
+p {
+    /* Change font to bold comic sans */
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    /* Change font size to 16px */
+    font-size: 20px;
+    /* Change font color to  some sort of blue */
+    color: black;
+    /* Center it */
+    margin: 0 auto;
+    align-items: center;
+    /* move to center of screen */
+    position: relative;
+    /* Change width to 80% */
+    width: 80%;
+    /* Change height to 100% */
+    height: 100%;
+    /* Change background color to some sort of blue */
+    background-color: #006eff3b;
+}
