@@ -1,5 +1,6 @@
 const primul = document.getElementById('curs-primul')
 const experienta = document.getElementById('curs-experienta')
+const meniu = document.getElementById('curs-meniu')
 
 function schimbareTitlu(id, titlu) {
     document.getElementById(id).innerText = titlu;
@@ -27,13 +28,21 @@ function schimba() {
 function cursContinua(text) {
     if (text === "primul") {
         schimbareTitlu("curs-info", "Primul curs, baza :")
+        meniu.style.display = "none"
         experienta.style.display = "none"
         primul.style.display = "block"
     }
     else if (text === "experienta") {
         schimbareTitlu("curs-info", "Cursul 2 : Experienta cu seful P2")
         primul.style.display = "none"
+        meniu.style.display = "none"
         experienta.style.display = "block"
+    }
+    else if (text === "meniu") {
+        schimbareTitlu("curs-info", "Cursul 2 : Meniu cu seful")
+        experienta.style.display = "none"
+        primul.style.display = "none"
+        meniu.style.display = "block"
     }
     else return
 }
